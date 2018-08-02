@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:background="#F9F9F9"
@@ -47,22 +47,25 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="20dp"
-        android:text="• Tip Culture: "
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="10dp"
+        android:text="• Tip Culture: Tipping is optional, but always be sure to carry small bills just in case "
         android:textAlignment="textStart"
         android:textColor="@android:color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/loading_screen_tax_text"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcome_text" />
+        app:layout_constraintTop_toBottomOf="@id/welcome_text"
+        app:layout_constraintVertical_chainStyle="packed" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="20dp"
-        android:text="• Tax Culture: "
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="10dp"
+        android:text="• Tax Culture: Bartering is essential in Nigeria, but do not walk away without purchasing the product after agreeing on a price"
         android:textAlignment="textStart"
         android:textColor="@android:color/black"
         android:textStyle="bold"
@@ -76,8 +79,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="20dp"
-        android:text="• Bargain Culture: "
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="10dp"
+        android:text="• Bargain Culture: Sales tax is 5%"
         android:textAlignment="textStart"
         android:textColor="@android:color/black"
         android:textStyle="bold"
@@ -89,7 +93,7 @@
         />
 
     <ImageButton
-        android:layout_marginVertical="20dp"
+        android:layout_marginVertical="50dp"
         android:layout_width="131dp"
         android:layout_height="36dp"
         android:src="@drawable/start_btn"
