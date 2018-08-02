@@ -26,22 +26,23 @@
         android:id="@+id/loading_screen_logo"
 
         android:src="@drawable/app_logo"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Nigeria!"
-        android:id="@+id/welcome_text"
-        app:layout_constraintTop_toBottomOf="@id/loading_screen_logo"
-        android:textColor="#AE9260"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="30dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
 
     <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Welcome to Nigeria!"
+        android:textColor="#AE9260"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loading_screen_logo" />
+
+    <TextView
+        android:id="@+id/loading_screen_tip_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
@@ -51,10 +52,9 @@
         android:textAlignment="textStart"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:id="@+id/loading_screen_tip_text"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toTopOf="@id/loading_screen_tax_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/welcome_text" />
     <TextView
         android:layout_width="match_parent"
@@ -96,7 +96,7 @@
         android:background="@null"
         android:scaleType="fitXY"
         android:id="@+id/startBtn"
-
+        android:onClick="HomeActivity"
         app:layout_constraintRight_toRightOf="@id/loading_screen_bargain_text"
         app:layout_constraintLeft_toLeftOf="@id/loading_screen_bargain_text"
         app:layout_constraintTop_toBottomOf="@id/loading_screen_bargain_text"
