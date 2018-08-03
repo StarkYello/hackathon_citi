@@ -192,7 +192,6 @@
         android:layout_marginTop="93dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="69dp"
         android:background="#f9f9f9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -225,7 +224,6 @@
         app:itemBackground="@null"
         app:itemIconTint="@color/bottom_nav_color"
         app:itemTextColor="@color/bottom_nav_color"
-
         >
 
 
