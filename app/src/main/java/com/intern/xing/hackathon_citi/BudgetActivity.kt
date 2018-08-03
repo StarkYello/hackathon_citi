@@ -24,6 +24,10 @@ class BudgetActivity : AppCompatActivity() {
                 R.id.experienceScreen -> {
                     startActivity(Intent(this, ExperienceActivity::class.java))
                 }
+                R.id.conciergeScreen ->{
+                    startActivity(Intent(this, ConciergeActivity::class.java))
+                }
+
             }
             false
         }
