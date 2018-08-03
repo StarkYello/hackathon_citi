@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoadingActivity" />
-        <activity android:name=".HomeActivity" />
         <activity android:name=".BudgetActivity" />
+        <activity android:name=".ExperienceActivity" />
+        <activity android:name=".MytripActivity" />
         <activity android:name=".SimpleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

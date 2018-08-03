@@ -220,6 +220,8 @@
         android:background="#966D2B"
         app:itemIconSize="25dp"
         app:itemBackground="@null"
+        android:clickable="true"
+        android:focusable="true"
         app:itemIconTint="@color/bottom_nav_color"
         app:itemTextColor="@color/bottom_nav_color"
         >

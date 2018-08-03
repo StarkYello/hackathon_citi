@@ -16,7 +16,7 @@ class BudgetActivity : AppCompatActivity() {
         arrowButton.setOnClickListener {
             startActivity(Intent(this,SpendingActivity::class.java))
         }
-        bottom_navigation.setOnNavigationItemReselectedListener { item ->
+        bottom_navigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.homeScreen -> {
                     startActivity(Intent(this, BudgetActivity::class.java))
@@ -26,6 +26,9 @@ class BudgetActivity : AppCompatActivity() {
                 }
                 R.id.conciergeScreen ->{
                     startActivity(Intent(this, ConciergeActivity::class.java))
+                }
+                R.id.miscScreen ->{
+                    startActivity(Intent(this,MytripActivity::class.java))
                 }
 
             }
