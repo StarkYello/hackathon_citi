@@ -17,9 +17,9 @@
         app:cardBackgroundColor="@color/gold10"
         app:cardElevation="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="324dp">
+        tools:layout_editor_absoluteY="273dp">
 
         <TextView
             android:layout_width="201dp"
@@ -36,7 +36,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="346dp"
-        android:layout_height="207dp"
+        android:layout_height="164dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:cardBackgroundColor="@color/gold10"
@@ -50,7 +50,7 @@
             android:id="@+id/textView12"
             android:layout_width="357dp"
             android:layout_height="165dp"
-            android:text="☻ Something\n☻ Something\n☻ Something"
+            android:text="☻ Do not use your left hand \n☻ Do smile \n☻ Do keep a copy of your passport \n☻ Do respect elders \n☻ Capital of Nigeria is Abuja \n☻ Emergency dialing number is 112"
             android:textColor="@android:color/black"
             android:textSize="20dp"
             tools:layout_editor_absoluteX="38dp"
@@ -89,7 +89,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="346dp"
         android:layout_height="207dp"
-        android:layout_marginTop="296dp"
+        android:layout_marginTop="240dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:cardBackgroundColor="@color/gold10"
@@ -99,16 +99,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView">
 
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="189dp"
+            android:layout_height="75dp"
+            android:text="Switch"
+            tools:layout_editor_absoluteX="223dp"
+            tools:layout_editor_absoluteY="232dp" />
+
         <TextView
             android:id="@+id/textView12"
             android:layout_width="357dp"
-            android:layout_height="165dp"
-            android:text="☻ Something\n☻ Something\n☻ Something"
+            android:layout_height="wrap_content"
+            android:text="☻ I am in Nigeria"
             android:textColor="@android:color/black"
             android:textSize="20dp"
             tools:layout_editor_absoluteX="38dp"
             tools:layout_editor_absoluteY="37dp" />
+
     </androidx.cardview.widget.CardView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
