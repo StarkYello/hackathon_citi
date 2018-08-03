@@ -10,6 +10,10 @@ class ConciergeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_concierge)
+        bottom_navigation.setSelectedItemId(R.id.conciergeScreen)
+        supportActionBar!!.title = "Concierge Screen"
+
+
         bottom_navigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.homeScreen -> {

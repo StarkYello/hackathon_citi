@@ -15,6 +15,9 @@ class MytripActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mytrip)
+        bottom_navigation.setSelectedItemId(R.id.miscScreen)
+        supportActionBar!!.title = "My Trip Screen"
+
 
         bottom_navigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {

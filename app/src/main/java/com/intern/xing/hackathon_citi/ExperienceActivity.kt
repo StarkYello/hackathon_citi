@@ -15,6 +15,8 @@ class ExperienceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_experience)
+        bottom_navigation.setSelectedItemId(R.id.experienceScreen)
+        supportActionBar!!.title = "Experience Screen"
 
         bottom_navigation.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {

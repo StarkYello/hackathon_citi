@@ -13,6 +13,8 @@ class BudgetActivity : AppCompatActivity() {
         setContentView(R.layout.activity_budget)
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.gold)))
         supportActionBar!!.title = "Budget Screen"
+        bottom_navigation.setSelectedItemId(R.id.homeScreen);
+
         arrowButton.setOnClickListener {
             startActivity(Intent(this,SpendingActivity::class.java))
         }
