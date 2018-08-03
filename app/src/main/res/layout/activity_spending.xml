@@ -44,23 +44,24 @@
         />
 
 </androidx.cardview.widget.CardView>
+
     <androidx.cardview.widget.CardView
+        android:id="@+id/first_box"
         android:layout_width="0dp"
         android:layout_height="120dp"
-        app:cardElevation="8dp"
         app:cardBackgroundColor="@color/gold10"
-        app:layout_constraintRight_toRightOf="parent"
+        app:cardElevation="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/right_box"
-        android:id="@+id/first_box">
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/right_box">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GAS STATION\n\n                                          -    ₦90000.00"
-            android:textSize="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            />
+            android:text="GAS STATION\n\n                                          -    ₦90000.00"
+            android:textSize="20dp" />
 
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
