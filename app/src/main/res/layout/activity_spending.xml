@@ -103,7 +103,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ALDDI CLOTHING\n\n                                          -    ₦1000000.00"
+            android:text="ALADE CLOTHING\n\n                                          -    ₦1000000.00"
             android:textSize="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
