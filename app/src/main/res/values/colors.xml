@@ -5,4 +5,10 @@
     <color name="colorAccent">#D81B60</color>
     <color name="gold">#966D2B</color>
     <color name="darkGold">#6E5220</color>
+    <color name="gold10">#ffece5d6</color>
+    <color name="gold20">#ffdaccad</color>
+    <color name="gold30">#ffc8b385</color>
+    <color name="gold40">#ffb5995c</color>
+    <color name="gold50">#ff887345</color>
+
 </resources>
