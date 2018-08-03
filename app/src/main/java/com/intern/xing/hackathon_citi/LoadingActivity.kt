@@ -13,9 +13,7 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.app.Activity
-
-
-
+import kotlinx.android.synthetic.main.activity_loading.*
 
 
 class LoadingActivity : AppCompatActivity() {
@@ -26,7 +24,10 @@ class LoadingActivity : AppCompatActivity() {
 
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.gold)))
         supportActionBar!!.title = "Travel Suite"
-
+        startBtn.setOnClickListener {
+            val intent = Intent(this, BudgetActivity::class.java)
+            startActivity(intent)
+        }
 
 
 
